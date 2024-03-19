@@ -1,0 +1,90 @@
+body {
+  color: antiquewhite;
+}
+.title {
+  color: gold;
+  -webkit-text-stroke: 3.5px blue;
+  font-size: 75px;
+  font-weight: 900;
+}
+.enter-name {
+  background-color: blue;
+}
+#enter-name {
+  font-weight: 700;
+}
+
+#search-button {
+  background-color: crimson;
+}
+
+#search-button:hover {
+  background-color: gold;
+  color: blue !important;
+}
+
+.pokemon-card {
+  border: 0.8rem solid gold;
+  width: 350px;
+}
+
+.pokemon-pic {
+  border-bottom: 0.8rem solid gold;
+  height: 300px;
+}
+
+#pokemon-name {
+  font-weight: 800;
+}
+
+.pokeball-top {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  clip-path: circle(50% at 0%);
+  transform: rotate(270deg);
+  background: crimson;
+  border-left: 7px solid black;
+}
+
+.pokeball-bottom {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  clip-path: circle(50% at 0%);
+  transform: rotate(90deg);
+  background: antiquewhite;
+}
+
+.pokeball-border-top {
+  width: 20px;
+  height: 20px;
+  clip-path: circle(50% at 0%);
+  transform: rotate(270deg);
+  background: black;
+  left: 31%;
+  z-index: 99;
+}
+
+.pokeball-border-bottom {
+  width: 20px;
+  height: 20px;
+  clip-path: circle(50% at 0%);
+  transform: rotate(90deg);
+  background: black;
+  left: 31%;
+  top: 50%;
+  z-index: 95;
+}
+
+.pokeball-button {
+  width: 10px;
+  height: 11px;
+  background: white;
+  clip-path: circle();
+  z-index: 99;
+  left: 40%;
+  top: 45%;
+}
